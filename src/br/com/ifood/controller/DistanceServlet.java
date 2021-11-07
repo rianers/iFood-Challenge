@@ -1,8 +1,8 @@
 package br.com.ifood.controller;
 
-public class PricingController {
+public class DistanceServlet {
 
-	public PricingController() {
+	public DistanceServlet() {
 		// TODO Auto-generated constructor stub
 	}
 
