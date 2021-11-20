@@ -16,7 +16,7 @@ public class RestaurantDAOImpl implements RestaurantDAO {
 
     List<RestaurantModel> restaurants = new ArrayList<RestaurantModel>();
 
-  	  try {
+    try {
 
       connection = DBManager.getConnection();
       pstmt = connection.prepareStatement("SELECT * FROM restaurant");
@@ -41,8 +41,7 @@ public class RestaurantDAOImpl implements RestaurantDAO {
       } catch (SQLException e) {
         e.printStackTrace();
       }
-    } 
-    
+    }
     return restaurants;
   }
 
